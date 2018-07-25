@@ -16,6 +16,10 @@ import tsou.cn.mvptest.bean.StudyBean;
 import tsou.cn.mvptest.interfaceview.NetWorkView;
 import tsou.cn.mvptest.presenter.NetWorkPresenter;
 
+/**
+ * 封装好的MVP框架
+ * 主要涉及类在：interfaceview包，model包，presenter包中
+ */
 @HxgContentView(R.layout.activity_main)
 public class MainActivity extends HxgMvpActivity<NetWorkView, NetWorkPresenter> implements NetWorkView {
 

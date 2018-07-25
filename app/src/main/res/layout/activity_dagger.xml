@@ -17,4 +17,15 @@
         android:layout_height="wrap_content"
         android:text="自定义的Button"
         android:textAllCaps="false" />
+
+    <tsou.cn.mvptest.view.CheckNetWorkButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="带有自动检查网络的Butten"
+        android:textAllCaps="false" />
+
+    <FrameLayout
+        android:id="@+id/fl_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 </LinearLayout>

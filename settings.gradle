@@ -1,1 +1,1 @@
-include ':app', ':lib_mvp'
+include ':app', ':lib_mvp',  ':lib_hxgaop'

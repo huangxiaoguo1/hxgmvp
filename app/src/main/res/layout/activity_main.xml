@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="tsou.cn.mvptest.MainActivity">
+
+    <Button
+        android:id="@+id/btn_network"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="网络请求" />
+
+    <tsou.cn.mvptest.view.NetWorkButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="直接请求网络" />
+    <Button
+        android:id="@+id/dagger"
+        android:layout_width="match_parent"
+        android:text="跳转Dagger页面"
+        android:textAllCaps="false"
+        android:layout_height="wrap_content" />
+    <FrameLayout
+        android:id="@+id/fl_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
